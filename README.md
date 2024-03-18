@@ -2,12 +2,11 @@
 
 ## Workflows
 1. Update config.yaml
-2. Update secrets.yaml[optional]{If using a database(MongoDB etc and if you're not comfortable in sharing that information)}
-3. Update params.yaml
-4. Update enitity.yaml
-5. Update the configuration manager in src.config
-6. Update components
-7. Update pipeline
-8. Update main.py
-9. Update dvc.yaml
-10. app.py
+2. Update params.yaml
+3. Update enitity.yaml
+4. Update the configuration manager in src.config
+5. Update components
+6. Update pipeline
+7. Update main.py
+8. Update dvc.yaml
+9. Update app.py
