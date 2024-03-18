@@ -49,6 +49,7 @@ def create_directories(path_to_directoties: list,verbose=True):
         os.makedirs(path,exist_ok=True)
         if verbose:
             logger.info(f"Directory created at {path}")
+@ensure_annotations
 def save_json(path:Path,data:dict):
     """
     Save the json data  
@@ -60,6 +61,66 @@ def save_json(path:Path,data:dict):
         json.dump(data,f,indent=4)
     
     logger.info(f"json file saved at {path}")
+
+
+@ensure_annotations
+def load_json(path:Path)->ConfigBox:
+    """
+    Loads the json files and returns the ConfigBox
+
+    Args:
+        path(Path): path to the json file
+
+    Returns:
+        ConfigBox: data as class attribute instead of a dictionary
+    """
+    with open(path) as f:
+        content=json.load(f)
+        logger.info(f"json file loaded successfully from {path}")
+        return ConfigBox(content)
+
+
+@ensure_annotations
+def save_bin(data:Any,path:Path):
+    """
+    Save the binary file
+
+    Args:
+        data(Any): data to be saved as binart file
+        path(Path): path to the file
+    """
+    joblib.dump(value=data,path=Path)
+    logger.info(f"Binary file saved at {path}")
+
+
+@ensure_annotations
+def load_bin(path:Path)->Any:
+    """
+    Load the binary file
+
+    Args:
+        path(Path): path to the binaryfile
+
+    Returns:
+        Any: data from the binary file
+    """
+    data=joblib.load(path)
+    logger.info(f"Binary file loaded successfully from {path}")
+    return data
+
+@ensure_annotations
+def get_size(path: Path) -> str:
+    """
+    Get the size of the file in KB
+
+    Args:
+        path(Path): path to the file
+
+    Returns:
+        str: size of the file in Kb
+    """
+    size_in_kb= round(os.path.getsize(path)/1024)
+    return f"~ {size_in_kb} KB"
 
 
 def decodeImage(imgstring,fileName):
