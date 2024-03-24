@@ -16,4 +16,5 @@ scipy
 Flask
 Flask-Cors
 gdown
+mlflow==2.5.0
 -e.
