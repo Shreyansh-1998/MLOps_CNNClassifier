@@ -11,3 +11,5 @@
 8. Update dvc.yaml
 9. Update app.py
 
+
+## Evertime you close your project. Make sure to add the environment variables(MLFLOW_TRACKING_URI, etc.)
