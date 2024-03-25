@@ -1,6 +1,6 @@
-from src.MLOPSCNNCLASSIFIER.config.configuration import ConfigurationManager
-from src.MLOPSCNNCLASSIFIER.components.model_evaluation_mlflow import Evaluation
-from src.MLOPSCNNCLASSIFIER import logger
+from MLOPSCNNCLASSIFIER.config.configuration import ConfigurationManager
+from MLOPSCNNCLASSIFIER.components.model_evaluation_mlflow import Evaluation
+from MLOPSCNNCLASSIFIER import logger
 
 STAGE_NAME = "Model Evaluation"
 
@@ -13,7 +13,7 @@ class EvaluationPipeline:
         eval_config=config_manager.get_evaluation_config()
         evaluation=Evaluation(eval_config)
         evaluation.evaluation()
-        evaluation.log_into_mlflow()  
+        #evaluation.log_into_mlflow()  
 
 
 if __name__ == '__main__':

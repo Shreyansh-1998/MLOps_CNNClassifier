@@ -3,7 +3,7 @@ from pathlib import Path
 import mlflow
 import mlflow.keras
 from urllib.parse import urlparse
-from src.MLOPSCNNCLASSIFIER.entity.config_entity import EvaluationConfig
+from MLOPSCNNCLASSIFIER.entity.config_entity import EvaluationConfig
 from MLOPSCNNCLASSIFIER.utils.common import read_yaml,create_directories,save_json
 
 

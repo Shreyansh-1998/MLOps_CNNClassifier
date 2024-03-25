@@ -4,7 +4,7 @@ from zipfile import ZipFile
 import tensorflow as tf
 from pathlib import Path
 from dataclasses import dataclass
-from src.MLOPSCNNCLASSIFIER.entity.config_entity import TrainingConfig
+from MLOPSCNNCLASSIFIER.entity.config_entity import TrainingConfig
 
 
 class Training:

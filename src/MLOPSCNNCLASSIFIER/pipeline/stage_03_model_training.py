@@ -1,6 +1,6 @@
-from src.MLOPSCNNCLASSIFIER import logger
-from src.MLOPSCNNCLASSIFIER.config.configuration import ConfigurationManager
-from src.MLOPSCNNCLASSIFIER.components.model_training import Training
+from MLOPSCNNCLASSIFIER import logger
+from MLOPSCNNCLASSIFIER.config.configuration import ConfigurationManager
+from MLOPSCNNCLASSIFIER.components.model_training import Training
 
 STAGE_NAME = "Model Training stage"
 

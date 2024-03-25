@@ -1,6 +1,6 @@
-from src.MLOPSCNNCLASSIFIER import logger
-from src.MLOPSCNNCLASSIFIER.config.configuration import ConfigurationManager
-from src.MLOPSCNNCLASSIFIER.components.prepare_base_model import PrepareBaseModel
+from MLOPSCNNCLASSIFIER import logger
+from MLOPSCNNCLASSIFIER.config.configuration import ConfigurationManager
+from MLOPSCNNCLASSIFIER.components.prepare_base_model import PrepareBaseModel
 
 STAGE_NAME = "Prepare Base Model stage"
 

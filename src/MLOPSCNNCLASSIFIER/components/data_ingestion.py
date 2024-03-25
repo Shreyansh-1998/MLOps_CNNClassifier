@@ -4,7 +4,7 @@ import zipfile
 import gdown
 from MLOPSCNNCLASSIFIER import logger
 from MLOPSCNNCLASSIFIER.utils.common import load_json
-from src.MLOPSCNNCLASSIFIER.utils.common import get_size
+from MLOPSCNNCLASSIFIER.utils.common import get_size
 from MLOPSCNNCLASSIFIER.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:
