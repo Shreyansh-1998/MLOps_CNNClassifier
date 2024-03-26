@@ -28,13 +28,13 @@ This project also contains Data Version Control(Dvc) for pipeline tracking to sa
 2. Connect the git repository you want to track.
 3. Export env_variables
 ```
-    export [MLFLOW_TRACKING_URI]="remote_uri"
+export [MLFLOW_TRACKING_URI]="remote_uri"
 ```
 ```
-    export [MLFLOW_TRACKING_USERNAME]= "your_username"
+export [MLFLOW_TRACKING_USERNAME]= "your_username"
 ```
 ```
-    export [MLFLOW_TRACKING_PASSWORD]= "your_password"
+export [MLFLOW_TRACKING_PASSWORD]= "your_password"
 ```
 4. Run the experiments and log the metrics required
 
@@ -43,14 +43,12 @@ This project also contains Data Version Control(Dvc) for pipeline tracking to sa
 Steps for dvc execution:
 
 ```
-    dvc init
+dvc init
 ```
 ```
-    dvc dag
+dvc dag
 ```
 ```
-    dvc repro
+dvc repro
 ```
-## The project also renders a flask application and hosts it locally.
-1. [flask application would run on](http://localhost:8080)
-2. Additional step would be to host it on AWS cloud with ci/cd.
+## This project contains a flask application for predicitions which would run on port 8080.
