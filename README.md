@@ -1,15 +1,36 @@
 ## This is an END-to-END CNNClassifier with MLOps Project
 
-## Workflows
-1. Update config.yaml
-2. Update params.yaml
-3. Update enitity.yaml
-4. Update the configuration manager in src.config
-5. Update components
-6. Update pipeline
-7. Update main.py
-8. Update dvc.yaml
-9. Update app.py
+To run this project :
+1. ```
+    git clone https://github.com/Shreyansh-1998/MLOps_CNNClassifier.git
+   ```
+2. ```
+    conda create -n your_env python==3.8 -y
+    ```
+3. ```
+    conda activate
+   ```
+4.  ```pip install -r requirements.txt
+    ```
+5.  ```
+    python3 app.py
+    ```
 
+This project also contains Data Version Control(Dvc) for pipeline tracking to save computational power. It is integrated with Mlflow to track experiments using [Dagshub](https://dagshub.com/).
 
-## Evertime you close your project. Make sure to add the environment variables(MLFLOW_TRACKING_URI, etc.)
+[MLflow tutorial and documentation](https://mlflow.org/)
+
+Steps for dvc execution:
+```dvc init
+```
+
+```
+dvc dag
+```
+
+```
+dvc repro
+```
+## The project also renders a flask application and hosts it locally.
+1. [flask application](http://localhost:8080)
+2. Additional step would be to host it on AWS cloud with ci/cd.
