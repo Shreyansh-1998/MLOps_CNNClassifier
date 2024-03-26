@@ -10,7 +10,8 @@ To run this project :
 3. ```
     conda activate
    ```
-4.  ```pip install -r requirements.txt
+4.  ```
+    pip install -r requirements.txt
     ```
 5.  ```
     python3 app.py
@@ -23,14 +24,12 @@ This project also contains Data Version Control(Dvc) for pipeline tracking to sa
 Steps for dvc execution:
 ```dvc init
 ```
-
 ```
 dvc dag
 ```
-
 ```
 dvc repro
 ```
 ## The project also renders a flask application and hosts it locally.
-1. [flask application](http://localhost:8080)
+1. [flask application would run on](http://localhost:8080)
 2. Additional step would be to host it on AWS cloud with ci/cd.
