@@ -51,4 +51,5 @@ dvc dag
 ```
 dvc repro
 ```
-## This project contains a flask application for predicitions which would run on port 8080.
+### This project contains a flask application for predicitions which would run on port:8080.
+![Prediction](Render/hostedsite.png "Prediction")
