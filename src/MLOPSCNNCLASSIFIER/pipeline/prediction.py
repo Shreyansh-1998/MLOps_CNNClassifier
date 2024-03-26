@@ -11,7 +11,7 @@ class PredictionPipeline:
     def predict(self):
 
         #Load the model
-        model=load_model(os.path.join("model","model.h5"))
+        model=load_model(os.path.join("artifacts","traininig","model.h5"))
 
         imagename= self.filename
         test_image=image.load_img(imagename,target_size=(224,224))
