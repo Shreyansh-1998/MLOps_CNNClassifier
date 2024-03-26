@@ -1,5 +1,5 @@
 ## This is an END-to-END CNNClassifier with MLOps Project
-This is a Kidnet tumour detection classification project. It is trained on VGG16 keras model.
+This is a Kidney tumour detection classification project. It is trained on VGG16 keras model.
 
 [Source dataset](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone/code) was collected from PACS (Picture archiving and communication system) from different hospitals in Dhaka, Bangladesh where patients were already diagnosed with having a kidney tumor, cyst, normal or stone findings. Both the Coronal and Axial cuts were selected from both contrast and non-contrast studies with protocol for the whole abdomen and urogram. 
 
