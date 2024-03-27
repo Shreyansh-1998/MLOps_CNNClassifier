@@ -1,3 +1,4 @@
+#Setting up a directory structure for the project
 import os
 from pathlib import Path
 import sys
@@ -24,7 +25,7 @@ list_of_files=[
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials.py",
+    "research/trials.ipynb",
     "templates/index.html"
     
 ]
