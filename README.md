@@ -56,3 +56,4 @@ dvc repro
 ```
 ### This project contains a flask application for predicitions which would run on port:8080.
 ![Prediction](Render/hostedsite.png "Prediction")
+![Prediction](Render/predict_tumor.png "tumor")

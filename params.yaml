@@ -1,8 +1,9 @@
 AUGMENTATION: True
-IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+IMAGE_SIZE: [224, 224, 3] #as per VGG 16 model
 BATCH_SIZE: 16
 INCLUDE_TOP: False
-EPOCHS: 200
+EPOCHS: 20  #For better accuract run for 200 epochs.
 CLASSES: 2
 WEIGHTS: imagenet
 LEARNING_RATE: 0.01
+
