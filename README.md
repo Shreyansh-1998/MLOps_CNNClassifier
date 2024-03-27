@@ -13,7 +13,7 @@ To run this project :
     git clone https://github.com/Shreyansh-1998/MLOps_CNNClassifier.git
    ```
 2. ```
-    conda create -n your_env python==3.8 -y
+    conda create -n your_env python=3.8 -y
     ```
 3. ```
     conda activate
