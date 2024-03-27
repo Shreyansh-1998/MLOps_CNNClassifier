@@ -22,14 +22,16 @@ To run this project :
     pip install -r requirements.txt
     ```
 5.  ```
+    python3 main.py
+    ```
+6.  ```
     python3 app.py
     ```
-
 This project also contains Data Version Control(Dvc) for pipeline tracking to save computational power. It is integrated with Mlflow to track experiments using [Dagshub](https://dagshub.com/).
 
 1. Login to dagshub.
 2. Connect the git repository you want to track.
-3. Export env_variables
+3. Export env_variables for remote server
 ```
 export [MLFLOW_TRACKING_URI]="remote_uri"
 ```
@@ -39,7 +41,7 @@ export [MLFLOW_TRACKING_USERNAME]= "your_username"
 ```
 export [MLFLOW_TRACKING_PASSWORD]= "your_password"
 ```
-4. Run the experiments and log the metrics required
+4. Run the experiments and it logs metrics and parameters
 
 [MLflow tutorial and documentation](https://mlflow.org/)
 ![Prediction](Render/mlflow1.png "flow1")
