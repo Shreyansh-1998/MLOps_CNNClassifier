@@ -16,7 +16,7 @@ To run this project :
     conda create -n your_env python=3.8 -y
     ```
 3. ```
-    conda activate
+    conda activate your_env/
    ```
 4.  ```
     pip install -r requirements.txt
