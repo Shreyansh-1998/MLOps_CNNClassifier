@@ -42,6 +42,8 @@ export [MLFLOW_TRACKING_PASSWORD]= "your_password"
 4. Run the experiments and log the metrics required
 
 [MLflow tutorial and documentation](https://mlflow.org/)
+![Prediction](Render/mlflow1.png "flow1")
+![Prediction](Render/mlflow2.png "flow2")
 
 Steps for dvc execution:
 
