@@ -1,5 +1,6 @@
-## This is an END-to-END CNNClassifier with MLOps Project
-This is a Kidney tumour detection classification project with MLOps, DVC and Flask Application for predictions. It is trained on VGG16 keras model.
+##KIDNEY TUMOR CLASSIFICATION
+
+This project focuses on Kidney Tumor Detection and Classification, integrating Machine Learning Operations (MLOps) practices and Data Version Control (DVC) for efficient project management and versioning. The core of the solution is built around the [VGG16 Keras model](https://www.tensorflow.org/api_docs/python/tf/keras/applications/VGG16). A Flask application serves as the interface for making predictions, providing users with an accessible and practical tool for identifying kidney tumors. The model achieves an accuracy of 84.45 percent, demonstrating its reliability and can further be increased by training it on more epochs. 
 
 [Source dataset](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone/code) was collected from PACS (Picture archiving and communication system) from different hospitals in Dhaka, Bangladesh where patients were already diagnosed with having a kidney tumor, cyst, normal or stone findings. Both the Coronal and Axial cuts were selected from both contrast and non-contrast studies with protocol for the whole abdomen and urogram. 
 
