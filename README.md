@@ -1,4 +1,4 @@
-##KIDNEY TUMOR CLASSIFICATION
+## KIDNEY TUMOR CLASSIFICATION
 
 This project focuses on Kidney Tumor Detection and Classification, integrating Machine Learning Operations (MLOps) practices and Data Version Control (DVC) for efficient project management and versioning. The core of the solution is built around the [VGG16 Keras model](https://www.tensorflow.org/api_docs/python/tf/keras/applications/VGG16). A Flask application serves as the interface for making predictions, providing users with an accessible and practical tool for identifying kidney tumors. The model achieves an accuracy of 84.45 percent, demonstrating its reliability and can further be increased by training it on more epochs. 
 
